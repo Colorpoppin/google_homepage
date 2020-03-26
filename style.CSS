@@ -3,3 +3,43 @@ ul {
     margin: 0;
     padding: 0;
 }
+li a {
+    color: black;
+    text-decoration: none;
+}
+.header ul {
+    position: fixed;
+    top: 0;
+    
+}
+
+.header li {
+    display: inline-block;
+}
+
+.header li a {
+    display: block; 
+    text-align: center;
+    padding: 10px 8px;
+}
+
+.header li i {
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+}
+main {
+    margin: auto;
+    width: 50%;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+}
+.footer img {
+    display: block;
+    width: 30%;
+}
+.search_bar {
+    overflow: auto;
+}
